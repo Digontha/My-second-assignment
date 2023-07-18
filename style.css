@@ -206,11 +206,42 @@ margin-top: 30px;
     width: 342px;
 
 }
+.paly-download-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px 200px 400px;
+
+}
+.play-download-heading{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
 
 
+}
+.play{
+   
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
- 
+}
+.play-download-pera{
+    width: 353px;
 
+color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+margin-top: 30px;
+}
+.cat-img{
+    position: relative;
+    top: -270px;
+    right: 150px;
+}
 
 
 
@@ -261,6 +292,11 @@ margin-top: 30px;
     }
     .content-pera3{
         font-size: 23px;
+    }
+    .online-games-picture-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
 
@@ -321,5 +357,9 @@ margin-top: 30px;
 
 
 }
-
+.online-games-picture-box{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 }
