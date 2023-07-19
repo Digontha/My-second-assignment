@@ -245,8 +245,11 @@ margin-top: 30px;
 .games-name{
     display: flex;
     justify-content: center;
-    margin: 0px 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 120px 10%;
     gap: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .main-game{
     display: flex;
@@ -318,13 +321,31 @@ background-clip: text;
     justify-content: center;
     gap: 10px;
 }
+.copy-right{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
 
+.main-game{
+    cursor: pointer;
+}
+.main-game:hover{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border-radius: 50px;
+border: 1px solid #FF42A5;
+}
 
-
-
-
-
-
+.box{
+    cursor: pointer;
+}
+.box:hover{
+    border: 5px solid #FF42A5;
+    border-radius: 6%;
+}
 
 
 
@@ -381,22 +402,66 @@ background-clip: text;
     }
     .paly-download-container{
         flex-direction: column;
-        margin: 0px 200px 0px 400px;
+        margin: 0px;
     }
    
     
     .play-download-heading{
       
-        margin-right: 400px;
+        margin-right: 0px;
         text-align: center;
 }
-.play-download-img{
-    width: -900px;
+.anniversary{
+    width: 300px;
+    margin-top: 30px;
+}
+   .cat-img{
+    width: 100px;
+    top: -75px;
+    right: 40px;
+   }
+   .games-name{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+   }
+   .about-container{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.conditions-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.footer{
+    background: #0B0223;
+    padding: 100px 100px;
+}
+.footer-logo{
+    margin-right:50px ;
+}
+.copy-right{
+    margin-right: 50px;
+}
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -480,5 +545,53 @@ background-clip: text;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+.paly-download-container{
+    flex-direction: column;
+    margin: 0px;
+}
+
+
+.play-download-heading{
+  
+    margin-right: 0px;
+    text-align: center;
+}
+.anniversary{
+width: 300px;
+margin-top: 30px;
+}
+.cat-img{
+width: 100px;
+top: -75px;
+right: 40px;
+}
+.games-name{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+.about-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.footer-icon{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.conditions-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+.footer{
+background: #0B0223;
+padding: 100px 300px;
+}
+.footer-logo{
+margin-right:50px ;
+}
+.copy-right{
+margin-right: 50px;
 }
 }
